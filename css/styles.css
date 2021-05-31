@@ -1,61 +1,61 @@
 /* GENERAL */
-/* line 18, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 18, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 body {
   background: #c2c5c8; }
 
-/* line 22, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 22, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 h1 {
   color: #465d71;
   font-family: 'Comfortaa', Verdana, sans-serif; }
 
-/* line 27, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 27, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 h2 {
   color: #000;
   font-family: 'Comfortaa', Verdana, sans-serif; }
 
-/* line 32, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 32, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .btn {
   box-shadow: 2px 2px 2px 2px #dddfe0; }
-  /* line 34, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 34, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .btn__discover {
-    background: #de8003;
+    background: #ef8b06;
     display: block;
     margin: auto; }
-    /* line 38, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 38, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .btn__discover:hover {
       background: #64849f;
       box-shadow: 2px 2px 2px 2px #a7acb0; }
-    /* line 42, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 42, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .btn__discover:visited, .btn__discover:active {
       background: #64849f !important;
       box-shadow: 2px 2px 2px 2px #a7acb0; }
-  /* line 47, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 47, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .btn:visited, .btn:active {
     background: #64849f !important;
     box-shadow: 2px 2px 2px 2px #a7acb0; }
 
-/* line 53, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 53, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .menu {
   background-color: #506a80;
   position: fixed;
   z-index: 2;
   height: 140px; }
-  /* line 58, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 58, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__list {
     background-color: #506a80 !important; }
-  /* line 61, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 61, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__item {
     font-size: 1.4em;
     margin-left: 30px;
     display: inline-flex;
     background-color: #506a80 !important; }
-    /* line 66, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 66, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .menu__item a {
       color: #FFF !important;
       background-color: #506a80 !important;
       position: relative;
       margin-left: 20px; }
-      /* line 71, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+      /* line 71, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
       .menu__item a::after {
         content: '';
         position: absolute;
@@ -67,48 +67,48 @@ h2 {
         height: 2px;
         background-color: rgba(255, 255, 255, 0.8);
         transition: transform 250ms; }
-      /* line 83, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+      /* line 83, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
       .menu__item a:hover {
-        color: #de8003 !important; }
-        /* line 85, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+        color: #ef8b06 !important; }
+        /* line 85, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
         .menu__item a:hover::after {
           transform: translateX(-50%) scaleX(1); }
 
-/* line 93, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 93, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start; }
-  /* line 98, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 98, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .footer__mail {
     text-align: center;
     color: #506a80;
     font-size: 1.5em; }
-    /* line 102, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 102, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .footer__mail p {
       margin-bottom: 0;
       font-family: 'Comfortaa', Verdana, sans-serif; }
-    /* line 106, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 106, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .footer__mail a {
-      color: #de8003;
+      color: #ef8b06;
       font-size: 2em; }
-  /* line 111, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 111, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .footer__menu li {
     list-style-type: none; }
-    /* line 113, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 113, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .footer__menu li a {
       color: #000;
       font-style: italic; }
-      /* line 116, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+      /* line 116, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
       .footer__menu li a:hover {
-        color: #de8003;
+        color: #ef8b06;
         text-decoration: none; }
-  /* line 123, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 123, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .footer__menu ul {
     position: relative;
     padding-left: 20px; }
-    /* line 126, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 126, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .footer__menu ul::before {
       content: "";
       display: block;
@@ -116,17 +116,17 @@ h2 {
       top: 0;
       left: 0;
       height: 100%;
-      border-left: 10px solid #de8003; }
+      border-left: 10px solid #ef8b06; }
 
 /* ACCUEIL */
-/* line 140, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 140, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .accueil {
   margin-top: 140px;
   background: url("../images/ordi1mini.jpg") no-repeat fixed;
   background-size: cover;
-  border-bottom: 1px solid #de8003;
+  border-bottom: 1px solid #ef8b06;
   z-index: 1; }
-  /* line 146, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 146, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil__box {
     margin: auto;
     padding: 50px;
@@ -134,7 +134,7 @@ h2 {
     background-color: rgba(237, 239, 241, 0.8);
     border: 1px solid black;
     position: relative; }
-  /* line 154, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 154, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil__icon {
     border-radius: 5px;
     color: #64849f;
@@ -144,17 +144,17 @@ h2 {
     bottom: -7%;
     left: 45%;
     animation: bounce 0.35s ease infinite alternate; }
-  /* line 164, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 164, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil__title1 {
     font-size: 1.8em; }
-  /* line 167, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 167, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil__title2 {
     margin-top: 40px;
     text-transform: uppercase;
     margin-bottom: 50px;
     font-weight: bold;
     font-size: 2.2em; }
-    /* line 173, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 173, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__title2::before {
       content: "";
       display: block;
@@ -162,7 +162,7 @@ h2 {
       margin-bottom: 30px;
       width: 40%;
       border-top: 10px solid #64849f; }
-    /* line 181, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 181, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__title2::after {
       content: "";
       display: block;
@@ -171,42 +171,42 @@ h2 {
       width: 40%;
       border-bottom: 10px solid #64849f; }
 
-/* line 192, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 192, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .anim {
   font-size: 1.3em;
   font-weight: bold; }
-  /* line 195, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 195, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__1 {
     text-align: left;
     color: #465d71;
     animation: introduction 10000ms both ease-out infinite; }
-  /* line 200, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 200, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__2 {
     text-align: right;
-    color: #de8003;
+    color: #ef8b06;
     animation: introduction 10000ms both ease-out 1000ms infinite; }
-  /* line 205, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 205, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__3 {
     text-align: center;
     color: #000;
     animation: introduction 10000ms both ease-out 2000ms infinite; }
-  /* line 210, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 210, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__4 {
     text-align: right;
     color: #465d71;
     animation: introduction 10000ms both ease-out 3000ms infinite; }
-  /* line 215, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 215, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__5 {
     text-align: left;
     margin-left: 20px;
-    color: #de8003;
+    color: #ef8b06;
     animation: introduction 10000ms both ease-out 4000ms infinite; }
-  /* line 221, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 221, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__6 {
     text-align: right;
     color: #465d71;
     animation: introduction 10000ms both ease-in-out 5000ms infinite; }
-  /* line 226, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 226, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim__7 {
     text-align: center;
     color: #000;
@@ -236,34 +236,34 @@ h2 {
 @keyframes bounce {
   from {
     transform: translateY(0);
-    background-color: #fc9a18; }
+    background-color: #faa22e; }
   to {
     transform: translateY(-20px);
-    background-color: #de8003; } }
+    background-color: #ef8b06; } }
 
 /* PRESENTATION */
-/* line 276, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 276, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .present {
   background: #7490a9;
   border-radius: 20px;
   box-shadow: 2px 4px 8px 3px #72797f;
   color: #FFF;
   font-size: 1.2em !important; }
-  /* line 282, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 282, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present__call {
     color: #000; }
-  /* line 285, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 285, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present__title {
     padding-left: 20px;
     margin-bottom: 40px; }
-  /* line 289, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 289, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present__text {
     font-style: italic;
     animation: reveldown 700ms both ease-in-out;
     padding-left: 70px;
     padding-right: 70px; }
 
-/* line 297, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 297, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .call {
   width: 70%;
   margin: auto;
@@ -271,7 +271,7 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
-  /* line 304, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 304, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .call__msg {
     margin-top: 30px;
     width: 60%;
@@ -281,16 +281,16 @@ h2 {
     font-family: 'Comfortaa', Verdana, sans-serif;
     text-shadow: 1px 1px 2px #c2c5c8;
     animation: revelup 700ms both ease-in-out; }
-  /* line 314, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 314, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .call__icon {
     font-size: 1.3em;
-    color: #de8003;
+    color: #ef8b06;
     vertical-align: bottom;
     margin-left: 10px; }
-  /* line 320, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 320, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .call__mail {
     font-size: 6em;
-    color: #de8003;
+    color: #ef8b06;
     margin-left: 40px;
     width: 40%;
     animation: revelup 700ms both ease-in-out; }
@@ -312,28 +312,28 @@ h2 {
     transform: translateY(0px); } }
 
 /* COMPETENCES */
-/* line 354, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 354, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .competences {
   background: url("../images/ordi2mini.jpg") no-repeat fixed;
   background-size: cover;
-  border-top: 1px solid #de8003;
+  border-top: 1px solid #ef8b06;
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-  /* line 361, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 361, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences__trans, .competences__tech {
     padding: 50px;
     background-color: rgba(237, 239, 241, 0.8);
     position: relative; }
-  /* line 366, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 366, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences__trans {
     margin-left: 50px; }
-  /* line 369, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 369, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences__title {
     font-family: 'Comfortaa', Verdana, sans-serif;
-    color: #de8003;
+    color: #ef8b06;
     margin-bottom: 20px; }
-  /* line 374, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 374, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences__lang {
     display: block;
     border: 3px solid black;
@@ -343,51 +343,51 @@ h2 {
     position: absolute;
     transform: scale(1) rotate(0);
     transition: transform 500ms ease-in-out; }
-    /* line 383, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 383, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__lang:hover {
       transform: scale(1.5) rotate(360deg); }
-  /* line 387, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 387, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences__check {
     color: #64849f;
     font-size: 1.3em;
     opacity: 0;
     animation: check 5s  infinite; }
-    /* line 393, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 393, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__check__1 {
       animation-delay: 1s; }
-    /* line 393, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 393, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__check__2 {
       animation-delay: 2s; }
-    /* line 393, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 393, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__check__3 {
       animation-delay: 3s; }
-    /* line 393, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 393, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__check__4 {
       animation-delay: 4s; }
-    /* line 393, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 393, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__check__5 {
       animation-delay: 5s; }
-  /* line 398, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 398, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences__qual {
     font-size: 1.3em; }
 
-/* line 404, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 404, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-1 {
   padding: 30px 20px;
   width: 100px;
   top: 30%;
   left: 5%;
-  border-color: #de8003; }
+  border-color: #ef8b06; }
 
-/* line 411, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 411, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-2 {
   padding: 40px 20px;
   width: 100px;
   top: 30%;
   left: 70%;
-  border-color: #de8003; }
+  border-color: #ef8b06; }
 
-/* line 418, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 418, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-3 {
   padding: 20px 5px;
   width: 120px;
@@ -395,7 +395,7 @@ h2 {
   left: 45%;
   border-color: #64849f; }
 
-/* line 425, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 425, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-4 {
   padding: 20px 5px;
   width: 90px;
@@ -403,7 +403,7 @@ h2 {
   left: 20%;
   border-color: #64849f; }
 
-/* line 432, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 432, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-5 {
   padding: 20px 5px;
   width: 110px;
@@ -411,7 +411,7 @@ h2 {
   left: 35%;
   border-color: #64849f; }
 
-/* line 439, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 439, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-6 {
   padding: 20px 5px;
   width: 90px;
@@ -419,7 +419,7 @@ h2 {
   left: 5%;
   border-color: #000; }
 
-/* line 446, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 446, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-7 {
   padding: 20px 5px;
   width: 100px;
@@ -427,7 +427,7 @@ h2 {
   left: 75%;
   border-color: #000; }
 
-/* line 453, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 453, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .lang {
   display: block;
   border: 1px solid #8c9298;
@@ -438,21 +438,21 @@ h2 {
   top: 35%;
   left: 35%; }
 
-/* line 463, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 463, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-8 {
   width: 20px;
   height: 20px;
   top: 70%;
   left: 75%; }
 
-/* line 469, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 469, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-9 {
   width: 40px;
   height: 40px;
   top: 85%;
   left: 55%; }
 
-/* line 475, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 475, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 #lang-10 {
   width: 25px;
   height: 25px;
@@ -468,26 +468,26 @@ h2 {
     opacity: 1; } }
 
 /* PORTFOLIO */
-/* line 498, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 498, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .portfolio {
   border-radius: 20px;
   box-shadow: 2px 4px 8px 3px #72797f;
   border: 5px solid #64849f; }
-  /* line 502, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 502, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__box {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-  /* line 507, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 507, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__title {
     margin-bottom: 40px; }
-  /* line 510, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 510, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__card, .portfolio__git {
     box-shadow: 2px 4px 8px 3px #72797f;
     margin: 0 10px 20px 10px;
     border-radius: 20px;
     width: 30%; }
-  /* line 516, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 516, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__git {
     width: 100%;
     background: #64849f;
@@ -496,57 +496,57 @@ h2 {
     color: #000;
     padding: 30px;
     margin-top: 30px; }
-    /* line 524, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 524, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .portfolio__git__text {
       margin-bottom: 0; }
-  /* line 528, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 528, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__text {
     text-align: center; }
-  /* line 531, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 531, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__proj {
     text-align: center;
     font-family: 'Comfortaa', Verdana, sans-serif;
     color: #64849f; }
 
-/* line 538, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 538, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .git {
   animation: revelup 700ms both ease-in-out;
   padding-left: 70px;
   padding-right: 70px;
   font-size: 1.1em; }
-  /* line 543, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 543, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .git a {
     display: block;
     margin: auto;
     text-align: center; }
-  /* line 548, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 548, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .git__icon {
-    color: #de8003;
+    color: #ef8b06;
     font-size: 3em; }
 
-/* line 555, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 555, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .card__zoom {
   width: 95%;
   margin: 2.5%;
   border-radius: 15px 15px 0 0;
-  border: 1px solid #de8003;
+  border: 1px solid #ef8b06;
   overflow: hidden; }
-  /* line 561, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 561, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .card__zoom img {
     transition: transform .5s ease; }
-  /* line 564, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 564, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .card__zoom:hover img {
     transform: scale(1.5); }
 
 /* FORMATION */
-/* line 571, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 571, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .education {
   margin-top: 90px;
   background: url("../images/ordi3mini.jpg") no-repeat fixed;
   background-size: cover;
-  border-top: 1px solid #de8003;
+  border-top: 1px solid #ef8b06;
   z-index: 1; }
-  /* line 577, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 577, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .education__box {
     margin: auto;
     padding: 60px;
@@ -554,19 +554,19 @@ h2 {
     background-color: rgba(237, 239, 241, 0.8);
     border: 1px solid black;
     position: relative; }
-  /* line 585, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 585, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .education__title {
     margin-bottom: 30px; }
-  /* line 588, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 588, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .education__timeline {
     margin: auto;
     padding: 70px 30px 30px 30px;
     position: relative; }
 
-/* line 596, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 596, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .timeline {
   list-style-type: none; }
-  /* line 598, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 598, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline::before {
     content: "";
     top: 0;
@@ -576,22 +576,22 @@ h2 {
     background: #333;
     left: 50%;
     margin-left: -2.5px; }
-  /* line 608, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 608, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__item {
     margin-bottom: 20px;
     position: relative; }
-    /* line 611, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 611, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__item::before {
       content: "";
       display: table; }
-    /* line 615, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 615, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__item::after {
       content: "";
       display: table;
       clear: both; }
-  /* line 621, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 621, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline .timeline__badge {
-    color: #de8003;
+    color: #ef8b06;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -602,57 +602,57 @@ h2 {
     margin-left: -25px;
     background-color: #c2c5c8;
     border-radius: 50%; }
-  /* line 634, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 634, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__card {
     width: 90%;
     float: right;
     margin-right: 40px;
-    border: 1px solid #de8003;
+    border: 1px solid #ef8b06;
     border-radius: 7px;
     padding: 20px 25px;
     position: relative;
     box-shadow: 2px 4px 8px 3px #72797f;
     background: #FFF; }
-  /* line 645, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 645, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__container {
     width: 50%;
     float: left;
     transform: translateX(0) scale(1);
     transition: transform 300ms ease-out; }
-    /* line 650, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 650, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container:hover {
       transform: translateX(-10%) scale(1.2); }
-  /* line 654, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 654, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__container-inverted {
     width: 50%;
     float: right;
     transform: translateX(0) scale(1);
     transition: transform 300ms ease-out; }
-    /* line 659, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 659, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container-inverted:hover {
       transform: translateX(10%) scale(1.2); }
-    /* line 662, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 662, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container-inverted .timeline__card {
       float: right;
       margin-left: 40px;
       margin-right: 0; }
 
-/* line 671, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 671, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .timecard__title {
   font-family: 'Comfortaa', Verdana, sans-serif;
   color: #64849f;
   font-size: 1.5em; }
 
-/* line 676, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 676, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .timecard__title2 {
   font-family: 'Comfortaa', Verdana, sans-serif;
   text-align: left; }
 
-/* line 680, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 680, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .timecard__date {
   color: #8c9298; }
 
-/* line 683, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 683, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .timecard::after {
   content: "";
   display: inline-block;
@@ -664,7 +664,7 @@ h2 {
   border-right: 0 solid #64849f;
   border-bottom: 14px solid transparent; }
 
-/* line 696, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+/* line 696, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
 .timeline__container-inverted .timecard::after {
   left: -14px;
   right: auto;
@@ -673,126 +673,126 @@ h2 {
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN ECRAN TABLETTE------------------------------*/
 @media screen and (min-width: 838px) and (max-width: 1092px) {
-  /* line 709, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 709, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__item {
     font-size: 1.2em !important;
     background-color: #506a80 !important; }
-  /* line 713, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 713, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__last {
     padding-bottom: 20px !important; }
-  /* line 718, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 718, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil__title1 {
     font-size: 1.5em; }
-  /* line 721, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 721, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim {
     line-height: 15px; }
-    /* line 723, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 723, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .anim__7 {
       line-height: 35px; }
-  /* line 728, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 728, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present__text {
     padding-left: 40px;
     padding-right: 40px; }
-  /* line 732, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 732, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .call {
     width: 90%; }
-  /* line 736, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 736, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences {
     flex-direction: column;
     justify-content: flex-start; }
-    /* line 739, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 739, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__trans {
       margin: 0; }
-    /* line 742, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 742, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__tech, .competences__trans {
       padding: 50px;
       width: 70%;
       margin: auto; }
-    /* line 747, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 747, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__tech {
       margin-bottom: 30px;
       min-height: 350px;
       font-size: 1.2em; }
-    /* line 752, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 752, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__title {
       text-align: center; }
-  /* line 756, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 756, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-1 {
     width: 110px; }
-  /* line 759, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 759, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-2 {
     width: 100px;
     top: 35%;
     left: 65%; }
-  /* line 764, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 764, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-3 {
     width: 130px;
     top: 70%;
     left: 65%; }
-  /* line 769, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 769, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-4 {
     width: 90px;
     top: 75%;
     left: 45%; }
-  /* line 774, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 774, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-5 {
     width: 130px;
     top: 45%;
     left: 30%; }
-  /* line 779, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 779, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-6 {
     width: 130px;
     top: 65%;
     left: 10%; }
-  /* line 784, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 784, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-7 {
     width: 100px;
     top: 25%;
     left: 35%; }
-  /* line 791, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 791, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__box {
     flex-direction: column;
     justify-content: flex-start; }
-  /* line 795, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 795, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio__card {
     width: 80%;
     margin: auto;
     margin-bottom: 30px; }
-  /* line 802, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 802, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timecard__title {
     font-size: 1.3em; }
-  /* line 808, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 808, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline::before {
     left: 15%;
     margin-left: -2.5px; }
-  /* line 812, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 812, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline .timeline__badge {
     left: 12%; }
-  /* line 815, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 815, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__card {
     width: 90%;
     float: right;
     margin-left: 0px;
     margin-right: 0px; }
-  /* line 821, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 821, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__container {
     width: 70%;
     float: right;
     margin-right: 100px; }
-  /* line 826, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 826, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__container-inverted {
     width: 70%;
     float: right;
     margin-right: 100px; }
-    /* line 830, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 830, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container-inverted .timeline__card {
       float: right;
       margin-left: 0px;
       margin-right: 0px; }
-  /* line 837, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 837, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timecard {
     margin-bottom: 30px; }
-    /* line 839, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 839, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard::after {
       left: -14px;
       right: auto;
@@ -801,334 +801,334 @@ h2 {
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN ECRAN SMARTPHONE------------------------------*/
 @media screen and (min-width: 469px) and (max-width: 838px) {
-  /* line 853, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 853, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__item {
     font-size: 1.2em !important;
     background-color: #506a80 !important; }
-  /* line 857, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 857, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__last {
     padding-bottom: 20px !important; }
-  /* line 862, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 862, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .footer__mail {
     font-size: 1.3em; }
-  /* line 866, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 866, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil {
     padding: 30px; }
-    /* line 868, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 868, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__title1 {
       width: 80%;
       margin: auto; }
-    /* line 872, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 872, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__box {
       padding: 20px;
       padding-bottom: 40px; }
-    /* line 876, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 876, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__anim {
       padding: 0; }
-  /* line 880, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 880, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim {
     line-height: 25px; }
-  /* line 884, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 884, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present {
     font-size: 1em !important; }
-    /* line 886, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 886, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .present__text {
       padding-left: 20px;
       padding-right: 20px; }
-  /* line 891, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 891, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .call {
     width: 90%; }
-  /* line 895, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 895, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences {
     flex-direction: column;
     justify-content: flex-start; }
-    /* line 898, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 898, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__trans {
       margin-left: 0; }
-    /* line 901, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 901, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__tech, .competences__trans {
       padding: 30px;
       width: 70%;
       margin: auto; }
-    /* line 906, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 906, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__tech {
       margin-bottom: 30px;
       min-height: 350px; }
-    /* line 910, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 910, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__title {
       text-align: center; }
-  /* line 914, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 914, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   #lang-7 {
     padding: 10px 5px;
     width: 90px;
     top: 75%;
     left: 70%; }
-  /* line 921, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 921, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio {
     margin: auto;
     margin-bottom: 30px; }
-    /* line 924, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 924, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .portfolio__box {
       flex-direction: column;
       justify-content: flex-start;
       margin: auto; }
-    /* line 929, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 929, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .portfolio__card {
       width: 80%;
       margin: auto;
       margin-bottom: 30px; }
-  /* line 935, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 935, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .git {
     padding-left: 30px;
     padding-right: 30px; }
-  /* line 940, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 940, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .education__box {
     padding-left: 10px;
     padding-right: 10px; }
-  /* line 945, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 945, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline::before {
     left: 5%;
     margin-left: -2.5px; }
-  /* line 949, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 949, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline .timeline__badge {
     left: 0%; }
-  /* line 952, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 952, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__card {
     width: 90%;
     float: right;
     margin-left: 0px;
     margin-right: 0px; }
-  /* line 958, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 958, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__container {
     width: 90%;
     float: right;
     margin-right: 0px; }
-  /* line 963, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 963, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline__container-inverted {
     width: 90%;
     float: right;
     margin-right: 0px; }
-    /* line 967, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 967, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container-inverted:hover {
       transform: translateX(-10%) scale(1.2); }
-    /* line 970, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 970, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container-inverted .timeline__card {
       float: right;
       margin-left: 0px;
       margin-right: 0px; }
-  /* line 977, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 977, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timecard {
     margin-bottom: 30px; }
-    /* line 979, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 979, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard__title {
       font-size: 1.2em; }
-    /* line 982, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 982, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard__title2 {
       font-size: 1em; }
-    /* line 985, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 985, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard::after {
       left: -14px;
       right: auto;
       border-left-width: 0;
       border-right-width: 14px; }
-  /* line 992, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 992, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .git__text {
     text-align: center; } }
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN PETIT ECRAN SMARTPHONE------------------------------*/
 @media screen and (max-width: 469px) {
-  /* line 1002, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1002, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__item {
     font-size: 1.2em !important;
     background-color: #506a80 !important; }
-  /* line 1006, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1006, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .menu__last {
     padding-bottom: 20px !important; }
-  /* line 1011, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1011, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .footer__mail {
     font-size: 1.1em; }
-  /* line 1015, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1015, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .accueil {
     padding: 30px; }
-    /* line 1017, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1017, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__title1 {
       width: 100%;
       font-size: 1.3em;
       margin: auto; }
-    /* line 1022, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1022, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__title2 {
       font-size: 1.6em;
       margin-bottom: 30px; }
-    /* line 1026, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1026, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__box {
       padding: 20px;
       padding-bottom: 40px; }
-    /* line 1030, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1030, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__anim {
       padding: 0; }
-    /* line 1033, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1033, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .accueil__icon {
       left: 40%; }
-  /* line 1037, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1037, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .anim {
     line-height: 25px;
     font-size: 1.1em; }
-  /* line 1042, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1042, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present {
     font-size: 1em !important; }
-    /* line 1044, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1044, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .present__text {
       padding-left: 20px;
       padding-right: 20px; }
-  /* line 1049, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1049, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .call {
     flex-direction: column;
     width: 100% !important;
     margin: 0; }
-    /* line 1053, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1053, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .call__msg {
       width: 90%; }
-    /* line 1056, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1056, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .call__mail {
       margin: auto; }
-  /* line 1061, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1061, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .competences {
     flex-direction: column;
     justify-content: flex-start; }
-    /* line 1064, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1064, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__trans {
       margin-left: 0;
       font-size: 0.9em; }
-    /* line 1068, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1068, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__tech, .competences__trans {
       padding: 30px;
       width: 90%;
       margin: auto; }
-    /* line 1073, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1073, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__tech {
       margin-bottom: 30px;
       min-height: 350px;
       font-size: 0.8em; }
-    /* line 1078, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1078, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences__title {
       text-align: center; }
-    /* line 1081, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1081, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-1 {
       padding: 30px 20px;
       width: 90px;
       top: 30%;
       left: 5%; }
-    /* line 1087, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1087, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-2 {
       padding: 40px 20px;
       width: 80px;
       top: 30%;
       left: 70%; }
-    /* line 1093, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1093, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-3 {
       padding: 20px 5px;
       width: 100px;
       top: 55%;
       left: 45%; }
-    /* line 1099, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1099, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-4 {
       padding: 20px 5px;
       width: 70px;
       top: 65%;
       left: 20%; }
-    /* line 1105, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1105, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-5 {
       padding: 20px 5px;
       width: 90px;
       top: 35%;
       left: 35%; }
-    /* line 1111, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1111, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-6 {
       padding: 10px 5px;
       width: 90px;
       top: 85%;
       left: 5%; }
-    /* line 1117, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1117, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .competences #lang-7 {
       padding: 10px 5px;
       width: 90px;
       top: 75%;
       left: 65%; }
-  /* line 1124, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1124, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .present__title, .portfolio__title, .competences__title {
     font-size: 1.8em; }
-  /* line 1128, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1128, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .portfolio {
     margin: auto;
     margin-bottom: 30px; }
-    /* line 1131, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1131, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .portfolio__box {
       flex-direction: column;
       justify-content: flex-start;
       margin: auto; }
-    /* line 1136, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1136, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .portfolio__card {
       width: 100%;
       margin: auto;
       margin-bottom: 30px; }
-  /* line 1142, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1142, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .git {
     padding-left: 30px;
     padding-right: 30px; }
-  /* line 1147, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1147, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .education__box {
     padding-left: 10px;
     padding-right: 10px; }
-  /* line 1151, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1151, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timeline {
     padding-right: 0; }
-    /* line 1153, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1153, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline::before {
       left: 5%;
       margin-left: -2.5px; }
-    /* line 1157, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1157, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline .timeline__badge {
       left: -3%; }
-    /* line 1160, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1160, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__card {
       width: 90%;
       float: right;
       margin-left: 0px;
       margin-right: 0px; }
-    /* line 1166, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1166, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container {
       width: 90%;
       float: right;
       margin-right: 0px; }
-    /* line 1171, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1171, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timeline__container-inverted {
       width: 90%;
       float: right;
       margin-right: 0px; }
-      /* line 1175, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+      /* line 1175, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
       .timeline__container-inverted:hover {
         transform: translateX(-10%) scale(1.2); }
-      /* line 1178, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+      /* line 1178, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
       .timeline__container-inverted .timeline__card {
         float: right;
         margin-left: 0px;
         margin-right: 0px; }
-  /* line 1185, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1185, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .timecard {
     margin-bottom: 30px; }
-    /* line 1187, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1187, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard__title {
       font-size: 1.2em; }
-    /* line 1190, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1190, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard__title2 {
       font-size: 1em; }
-    /* line 1193, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+    /* line 1193, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
     .timecard::after {
       left: -14px;
       right: auto;
       border-left-width: 0;
       border-right-width: 14px; }
-  /* line 1200, /Users/Bargeme/Desktop/E-portfolio/scss/styles.scss */
+  /* line 1200, /Users/Bargeme/Desktop/FormationDevWeb/E-portfolio/scss/styles.scss */
   .git__text {
     text-align: center; } }
 
