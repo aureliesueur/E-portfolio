@@ -454,16 +454,16 @@ h2 {
 }
 
 #lang-1 {
-  padding: 30px 20px;
-  width: 100px;
+  padding: 20px 10px;
+  width: 120px;
   top: 30%;
   left: 5%;
   border-color: #ef8b06;
 }
 
 #lang-2 {
-  padding: 40px 20px;
-  width: 100px;
+  padding: 20px 10px;
+  width: 110px;
   top: 30%;
   left: 70%;
   border-color: #ef8b06;
@@ -531,7 +531,7 @@ h2 {
   width: 40px;
   height: 40px;
   top: 85%;
-  left: 55%;
+  left: 35%;
 }
 
 #lang-10 {
@@ -542,10 +542,10 @@ h2 {
 }
 
 #lang-11 {
-  padding: 30px 20px !important;
+  padding: 20px !important;
   width: 100px;
   top: 75%;
-  left: 65%;
+  left: 55%;
   border-color: #ef8b06 !important;
 }
 
@@ -830,7 +830,7 @@ h2 {
   }
 
   #lang-2 {
-    width: 100px;
+    width: 110px;
     top: 35%;
     left: 65%;
   }
@@ -865,11 +865,11 @@ h2 {
     left: 35%;
   }
 
-  #lang-8 {
-    padding: 30px 20px;
+  #lang-11 {
+    padding: 20px;
     width: 100px;
-    top: 75%;
-    left: 65%;
+    top: 55%;
+    left: 50%;
   }
 
   .portfolio__box {
@@ -995,6 +995,13 @@ h2 {
     width: 90px;
     top: 75%;
     left: 70%;
+  }
+
+  #lang-11 {
+    padding: 20px;
+    width: 100px;
+    top: 75%;
+    left: 40%;
   }
 
   .portfolio {
@@ -1164,10 +1171,10 @@ h2 {
     left: 5%;
   }
   .competences #lang-2 {
-    padding: 40px 20px;
-    width: 80px;
+    padding: 20px 10px;
+    width: 110px;
     top: 30%;
-    left: 70%;
+    left: 65%;
   }
   .competences #lang-3 {
     padding: 20px 5px;
@@ -1199,11 +1206,11 @@ h2 {
     top: 75%;
     left: 65%;
   }
-  .competences #lang-8 {
-    padding: 30px 20px;
+  .competences #lang-11 {
+    padding: 20px 10px;
     width: 100px;
     top: 75%;
-    left: 65%;
+    left: 35%;
   }
 
   .present__title, .portfolio__title, .competences__title {
