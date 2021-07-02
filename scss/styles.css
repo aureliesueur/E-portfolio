@@ -541,6 +541,14 @@ h2 {
   left: 5%;
 }
 
+#lang-11 {
+  padding: 30px 20px !important;
+  width: 100px;
+  top: 75%;
+  left: 65%;
+  border-color: #ef8b06 !important;
+}
+
 @-webkit-keyframes check {
   0% {
     opacity: 0;
@@ -855,6 +863,13 @@ h2 {
     width: 100px;
     top: 25%;
     left: 35%;
+  }
+
+  #lang-8 {
+    padding: 30px 20px;
+    width: 100px;
+    top: 75%;
+    left: 65%;
   }
 
   .portfolio__box {
@@ -1181,6 +1196,12 @@ h2 {
   .competences #lang-7 {
     padding: 10px 5px;
     width: 90px;
+    top: 75%;
+    left: 65%;
+  }
+  .competences #lang-8 {
+    padding: 30px 20px;
+    width: 100px;
     top: 75%;
     left: 65%;
   }

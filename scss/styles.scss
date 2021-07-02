@@ -478,6 +478,13 @@ h2 {
     top: 70%;
     left: 5%;
 }
+#lang-11 {
+    padding: 30px 20px!important;
+    width: 100px;
+    top: 75%;
+    left: 65%;
+    border-color: $color-tertiary!important;
+}
 
 
 //Animation des checks qui s'affichent au fur et à mesure après les qualités transversales
@@ -785,6 +792,12 @@ h2 {
         width: 100px;
         top: 25%;
         left: 35%;
+    }
+    #lang-8 {
+        padding: 30px 20px;
+        width: 100px;
+        top: 75%;
+        left: 65%;
     }
     //Portfolio
     .portfolio {
@@ -1117,6 +1130,12 @@ h2 {
         #lang-7 {
             padding: 10px 5px;
             width: 90px;
+            top: 75%;
+            left: 65%;
+        }
+        #lang-8 {
+            padding: 30px 20px;
+            width: 100px;
             top: 75%;
             left: 65%;
         }
